@@ -1,0 +1,672 @@
+@import url("standard.css");
+@import url("introjs.css");
+@import url("webStyles.css");
+/*@import url("operations-theme.css");
+@import url("operations-theme-telerik.css");
+@import url("operations-theme-kendo.css");*/
+@import url("AnythingSlider.css");
+/*---------------------------------------------------------- */
+/*     Button Color Exception - Please do not remove. -TS    */
+.btn {
+	border-radius: 0px;
+}
+.btn-default {
+	background: #fff !important;
+	color: #333 !important;
+	border-color: #CCCCCC !important;
+}
+.btn-default:hover {
+	background: #ebebeb !important;
+	border-color: #adadad !important;
+}
+.btn-primary {
+	background: none repeat scroll 0 0 #80b34e !important;
+	border-color: #357ebd !important;
+	color: #fff !important;
+}
+.btn-primary:hover {
+	background: #34bc3a !important;
+	border-color: #285e8e !important;
+}
+.width100full{
+    width: 100%
+}
+.Posting{
+    padding: 30px;
+}
+/*---------------------------------------------------------- */
+/* HEADER */
+#header {
+	width: 100%;
+	height: 57px;
+	display: table;
+}
+#header .left {
+	width: 210px;
+	height: 37px;
+	float: left;
+	position: relative;
+	top: 11px;
+}
+#header .applogo {
+	margin-top: 10px;
+	margin-right: -2px;
+	width: 350px;
+	height: 37px;
+	float: right;
+}
+#headernav {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	z-index: 400;
+}
+#headernav .left {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#headernav .right {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+.menugoeshere {
+	height: 26px;
+	width: 450px;
+}
+.userinfogoeshere {
+	height: 26px;
+	width: 450px;
+}
+.breadcrumbs {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0;
+	display: inline-block;
+    padding: 18px 10px 10px 20px;
+}
+
+
+
+
+/*---------------------------------------------------------- */
+/* FOOTER */
+#footer {
+	clear: both;
+	width: 100%;
+	border-top: none;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+    font-size: 14px;
+}
+#footer .right {
+	float: right;
+	display: inline-block;
+	margin-right: 0;
+	padding: 0;
+	text-align: right;
+	width: auto;
+}
+#footer .left {
+	width: auto;
+	float: left;
+}
+/*---------------------------------------------------------- */
+#userroles {
+}
+#userroles li {
+}
+#userroles a {
+}
+#userroles a:hover {
+}
+#userstatus {
+}
+/*---------------------------------------------------------- */
+
+/* Tab Pages*/
+.tabNavigation{
+    float: left;
+    width: 100%;
+}
+.tabNav,.tabNavnoEvent{
+    float: left;
+    width: 100%;
+}
+ul.tabNav,ul.tabNavnoEvent {
+    overflow: hidden;
+    border: 1px solid #cfdde6;
+    background-color: #f1f2f4;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tabNav li,ul.tabNavnoEvent li {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    list-style-type: none;
+}
+ul.tabNav li a,ul.tabNavnoEvent li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+}
+ul.tabNav li:hover,ul.tabNavnoEvent li:hover {
+    background-color: #ddd;
+}
+
+
+.tabsNav li:hover, ul.tabNav li.active,
+ul.tabNavnoEvent li:hover,ul.tabNavnoEvent li.active{
+    background-color: #cfdde6;
+}
+
+.tabcontent {
+    display: none;
+    padding: 26px 12px;
+    border: 1px solid #cfdde6;
+    border-top: none;
+}
+.panelContent{
+    display: inline-block;
+    width: 100%;
+}
+#Profile,#addevent{
+    display: inline-block;
+    width: 97.5%;
+}
+.table-responsive{
+    border: 1px solid #cfdde6;
+}
+.table-responsive tr:nth-child(even) td{
+    background: #f1f2f4
+}
+.table-responsive table{
+    border-spacing: 0;
+}
+.table-responsive tr td{
+    padding: 5px;
+}
+.table-responsive table thead th{
+    padding: 7px; 
+    background: #f1f2f4;
+}
+select[multiple], select[size] {
+    height: auto;
+}
+.loginfooter .footerLogos img{
+    max-width: 100%;
+}
+.automatic{
+    float: left;
+    width: 96%;
+    padding:10px 2%;
+    border: 1px solid #cfdde6;
+}
+table.table{
+    width: 100%;
+}
+table.table th{
+    text-align: left;
+}
+footer.loginfooter{
+    border: 0px;
+    margin-top: 100px;
+}
+footer.loginfooter ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.hideDesk{
+    display: none;
+}
+.loginfooter ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.imageslide{
+    display:inline-block;
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+.arrow{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 330px;
+    display: inline-block;
+    cursor: pointer;
+}
+.back{
+   background: url("../assets/Images/leftbtn.png") no-repeat;
+}
+.forward{
+   background: url("../assets/Images/rightbtn.png") no-repeat;
+   right: 0px;
+}
+/* Tab Pages End */
+
+#apparea {
+	border: 1px solid #cfdde6;
+	background-color: #f9fafe;
+	padding: 20px 2%;
+	width: 96%;
+}
+/*.MainNavigation {
+    margin-top: -15px;
+}*/
+p {
+	line-height: 20px;
+}
+a {
+	color: #669acc;
+}
+p.bold {
+	line-height: 25px;
+}
+.loginbox {
+	border: 1px solid #c4d6e0;
+	background: #dbe4ee;
+	display: inline-block;
+}
+.reminder {
+	display: inline-block;
+}
+.navigation_position {
+	margin-top: -30px;
+}
+#apparea ul li {
+	padding-bottom: 10px;
+}
+#headernav .RadMenu {
+	line-height: 34px;
+}
+#headernav .RadMenu_Metro .rmRootLink, #headernav .RadMenu_Metro .rmRootLink:hover {
+	border: 0px solid #ccc !important;
+}
+.header-right {
+   font-size: 12px;
+}
+.rmSlide {
+    top: 32px !important;
+}
+.RadMenu_Metro .rmGroup {
+    border: 0px solid #ccc !important;
+}
+ul.rmVertical.rmGroup.rmLevel2 {
+    top: -30px !important;
+}    
+.class-mgmt-tabs {
+    height: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+.class-setup-btns {
+    float: left;
+    width: 220px;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+}
+.class-setup-btns input {
+    width: 120px;
+}
+.class-setup-btns .btn {
+}
+.tab-content {
+   padding: 15px;
+   border: 1px solid #777; 
+   width: 99%;
+  /* background-color: #ffffff; */
+   display: table;
+}
+.tab-content.addremove {
+
+border: 0px solid #000;
+
+}
+.classes-notsetup-list {
+    display: inline-block;
+    float: left;
+    width: 40%; 
+}
+.classes-assigned-list {
+    display: inline-block;
+    float: left;
+    width: 40%;   
+}
+.classes-notsetup-list .form-control {
+
+}
+.classes-assigned-list .form-control {
+
+}
+h3.cal {
+    margin-left: 34px;
+}
+.exempt-classes-dropdown {
+    width: 500px !important;
+}
+.RadTabStripTop_Outlook .rtsLevel .rtsLink, .RadTabStripTop_Outlook .rtsLevel .rtsOut {
+    background-image: none !important;
+}
+.RadTabStripTop_Outlook .rtsLevel .rtsLink {
+    background-color: #f9fafe !important;
+    border: 1px solid #cfdde6;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+}
+.RadTabStripTop_Outlook .rtsLevel .rtsLink:hover {
+}
+.RadTabStripTop_Outlook .rtsLevel .rtsSelected {
+    background-color: #ffffff !important;
+    font-weight: bold;
+    border-bottom: none;
+    position: relative;
+    z-index: 334;
+    margin-right: 5px;
+}
+.highlightbox {
+    margin-top: 1.110px;
+    position: relative;
+    z-index: 333;
+}
+
+/* responsive-table Start*/
+.responsive-table table {
+	border: 1px solid #ddd;
+}
+.responsive-table table thead tr th {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.responsive-table table tbody tr td {
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 8px;
+}
+.responsive-table table tbody tr:last-child td {
+
+	border-bottom: 0px;
+}
+.responsive-table table tr:nth-child(even) td {
+	background-color: #f5f5f5;
+}
+/* responsive-table End */
+.overflow-panel {
+	height: 600px;
+	overflow-y: scroll;
+}
+.bottomborder {
+	border-bottom: 1px solid #ddd;
+	padding-top: 20px;
+}
+/*---------------------------------------------------------- */
+
+/*---------------------------------------------------------- */
+
+/* session Settings*/
+.overlay{
+    height: 10vh
+}
+input[type="text"].form-control,input[type="date"].form-control{
+    width: 87%;
+}
+.sessionSettings{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    z-index: 99;
+    width: 75%;
+    padding: 20px;
+    background: #fff;
+}
+.tabsNav{
+    margin:0px;
+    padding: 0px;
+}
+.tabsNav li{
+    float: left;
+    list-style-type: none;
+    background: #c0c0c0;
+}
+li.active{
+    background: #888;
+}
+.tabsNav li a{
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.tabDesc .tabs{
+    display: none;;
+}
+.tabDesc .tab1{
+    display: block;
+}
+.table-responsive table table tr:nth-child(even) td{
+    background: none;
+}
+.tableselect tr td{
+    border: 1px solid #ccc;
+    border-bottom:0px;
+}
+.tableselect tr:last-child td{
+    border-bottom: 1px solid #ccc;
+}
+.table-responsive table table tr td .tableselect tr td.selected{
+    background: #2191ff;
+    color: #fff;
+}
+.arrowbtnTable{
+    cursor: pointer;
+}
+.showHide,.rosterTab,.am,.pm,.activityDetails{
+    display: none;
+}
+/* session Settings*/
+
+/* search box*/
+.searchbox{
+    border: 1px solid #c2c2c2;
+    border-radius: 23px;
+    width: 100%;
+    display: inline-block;
+}
+.searchbox input{
+    border: 0px; 
+}
+select.filterbox{
+    margin-top: 4px;
+    background: none;
+    border: 0px;
+}
+
+.boxContainer{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.logoleftpanel{
+    width: 38%;
+}
+.menuIcons{
+    width: 59%;
+}
+.menuIcons ul{
+    float: right;
+}
+@media (max-width:1280px) {
+
+
+
+}
+
+
+
+@media (max-width:1470px) {
+
+.tab-content {
+    padding: 0;
+    text-align: center;
+    width: 101% !important;
+}
+.classes-notsetup-list {
+    clear: both;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: none;
+}
+.classes-notsetup-list .col-lg-10 {
+    clear: both;
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+.classes-notsetup-list .col-lg-10 .form-control {
+    width: 100%;
+    text-align: left;
+    height: 100px;
+   /* overflow-y: scroll !important;*/
+}
+.class-setup-btns {
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    float: none;
+    text-align: center;
+    text-align: center;
+}
+.class-setup-btns input {
+    display: block;
+    width: 200px;
+}
+.classes-assigned-list {
+    clear: both;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: none;
+}
+.classes-assigned-list .col-lg-10 {
+    clear: both;
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+.classes-assigned-list .col-lg-10 .form-control {
+    width: 100%;
+    text-align: left;
+    height: 100px;
+    /*overflow-y: scroll !important;*/
+}
+h3.cal 
+{
+    margin-left: 0px
+}
+.fitness-scores-select-class 
+{
+    display: block !important;
+    clear: both !important;
+    float: none !important;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width:1150px) {
+
+.clear-both-1150px {
+    clear: both !important;
+    display: block !important;
+    float: none !important;
+}
+
+}
+
+@media (max-width:970px) {
+
+.RadMenu .rmLink {
+	font-size: 11.5px !important;
+}
+.header-right {
+    font-size: 8.5px !important;
+}
+.RadMenu .rmHorizontal .rmText {
+    padding: 0 8px 1px 0 !important;
+}
+.print-functions {
+    font-size: 11.5px !important;
+}
+
+.class-code-data {
+    clear: both !important;
+}
+.student-search-first-name, 
+.student-search-student-id, 
+.student-search-grade-level {
+    
+}
+
+}
+
+.logindetails .footer.loginfooter,#eventDetails,#myEvents{
+    display: block;
+}
+.logindetails{
+    float: right;;
+}
+.templeteList li{
+    float: left;
+    list-style-type: none;
+    width: 33%;
+    margin-bottom:10px;
+}
+@media (max-width:769px) {
+    .two-column{
+        width: 100%;
+    }
+    .imagesmainslide{
+        float: right;
+        width: 100%;
+    }
+    .logindetails{
+        float: left;
+        width: 100%;
+    }
+    .logindetails .loginfooter,.logindetails .footerLogos,.logindetails .reminder{
+        display: none;
+    }
+    .hideDesk{
+        display: block;
+    }
+}
+@media (max-width:600px) { .
+    .footerLogos .col-lg-5{
+        width: 100%;
+    }
+}

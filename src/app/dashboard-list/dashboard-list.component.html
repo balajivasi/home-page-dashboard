@@ -1,0 +1,13 @@
+<div class="boxContainer" attr.data-intro={{intro}} attr.data-step={{index}}>
+  <h3>{{pageTitle}}</h3>
+  <div class="RadTile RadTile_Bootstrap rtileSquare RadImageAndTextTile" 
+       style="background-color:White;"
+       *ngFor="let item of menuList">
+      <div class="rtileContent" *ngIf="item.apptype == show">
+         <div class="rtileTopContent">
+            <img class="rtileContentImage" [src]="item.image" alt="" />
+         </div>
+         <div class="rtileBottomContent">{{item.name}}</div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,384 @@
+
+.MainSite{
+	float: left;
+	width: 100%;
+}
+.menuopen #LeftMenu{
+    float: left;
+    display: inline-block;
+    min-height: 400px;
+    background: #2191ff;
+    padding:1%;
+}
+.mainpanel{
+	float: right;
+}
+.menuopen .mainpanel{
+	display: inline-block;
+}
+.btnIcon { 
+    position: relative;         
+    margin-right:2%; 
+    border-radius: 2px; 
+    height: 36px; 
+    width:36px; 
+    float: left;
+    cursor: pointer;      
+}
+
+#dots:before { position: absolute; content:""; border-top: 6px solid #2191ff; border-bottom: 17px double #2191ff; height: 5px; width:30px; top: 4px; right:3px; }
+#dots:after { position: absolute; content:""; border-left: 6px solid white; border-right: 6px solid white; height: 28px; width:6px; top: 4px; left:9px; }
+
+.headerSeperate{
+	border-top: 1px solid #cfdde6;
+	border-left: 0px solid #cfdde6;
+	border-bottom: 1px solid #cfdde6;
+	border-right: 0px solid #cfdde6;
+	background-color: #f1f2f4;
+	float: left;
+	width: 99.96%;
+}
+.headerSeperate.homePage {
+	border-bottom: 0px solid #cfdde6;
+}
+#LeftMenu{
+	float: left;
+	width: 0px;
+}
+.menuIcons ul{
+	margin:0px;
+	padding: 0px;
+}
+.menuIcons ul li{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6px;
+    font-size: 25px;
+    position: relative;;
+}
+.menuIcons ul li a{
+	padding: 19px;
+	display: inline-block;
+}
+.menuIcons ul li.search{
+	padding: 12px;
+}
+.menuIcons ul li.searchclose,.menuIcons ul li.search{
+	display: none;;
+}
+.menuIcons ul li.active{
+    background: #f3f3f3;
+}
+.menuIcons ul li .fa{
+	color: #2191ff;
+}
+.notification,.accountDetails{
+	display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 63px;
+    background: #fff;
+    width: 300px;
+    border: 1px solid #ccc;
+    display: none;
+}
+.notification ol,.notification ol li,.accountDetails ol,.accountDetails ol li{
+	margin:0px;
+	padding: 0px;
+}
+.notification ol li,.accountDetails ol li{
+	width: 90%;
+    list-style-type: none;
+    padding:10px 5%;
+}
+.notification h3{
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	line-height: 16px;
+}
+.menuIcons ul li ol li.notify{
+	font-size: 12px;
+	background: #f1f2f4;
+	margin-bottom: 2px;
+}
+.menuIcons ul li ol li .fa{
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.menuIcons ul li ol li .fa.warning{
+	color: #cc3a45;
+}
+.menuIcons ul li ol li .fa.check{
+	color: #83b63f
+}
+.accountDetails li img{
+	max-width:50px;
+	float: left;
+	margin-right: 20px
+}
+.menuIcons ul li .accountDetails li{
+	font-size: 20px;
+	text-align: center;;
+}
+.menuIcons ul li .accountDetails li a{
+	padding: 0px;
+	text-decoration: none;
+	color: #2191ff;
+	font-weight: normal;
+    font-size: 15px;
+}
+section{
+	display: inline-block;;
+	width: 100%;
+	min-height: 550px
+}
+footer{
+	border-top: 1px solid #cfdde6;
+	display: inline-block;
+	width: 100%;
+}
+footer ul li{
+	list-style-type: none;
+	margin-bottom: 10px
+}
+footer ul li a{
+	color: #000;
+	text-decoration: none;;
+}
+.closeIcon{
+	text-align: center;
+	cursor: pointer;
+}
+.closeIcon .fa{
+	color: #fff;
+	font-size: 50px;
+}
+
+.MainmenuIcons,.MainmenuIcons li{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+	text-align: center;
+	color: #fff;
+}
+.MainmenuIcons{
+	margin-top: 20px;
+}
+.MainmenuIcons li{
+	width: 29%;
+	float: left;
+	margin:0px 2% 10px 2%;
+	font-size: 12px;
+}
+.MainmenuIcons li img{
+    height: 75px;
+    display: block;
+    width: 100%;
+}
+.MainmenuIcons a svg{
+	width: 97px;
+}
+.MainmenuIcons a{
+	display: inline-block;
+	padding: 5px;
+	min-height: 160px;
+	width:90%;
+	color: #000;
+	text-decoration: none;
+}
+#LeftMenu .MainmenuIcons a{
+	min-height: 115px;
+	color: #fff;
+}
+#LeftMenu .MainmenuIcons a:hover{
+	border: 1px solid #fff;
+	background: rgba(255, 255, 255, .5);
+}
+.MainmenuIcons a:hover{
+	background: rgba(247, 252, 246, 1);
+}
+
+.navBar{
+	background: #2191ff;
+	color: #fff;
+	font-size: 17px;
+}
+.navBar a{
+	color: #fff;
+}
+.hamburger {
+	display: inline-block;
+	float: left;
+	margin-left: 3px;
+}
+.hamburger span{
+	width: 30px;
+    height: 5px;
+    background:#fff;
+    float: left;
+    clear: both;
+    border-radius: 2px;
+    margin: 3px 0;
+}
+.pageMenuBar,.navBar{
+	width: 230px;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+.pageMenuBar{
+	display: none;
+}
+.navActive .pageMenuBar{
+	display: block;
+}
+
+.pageContant{
+	width: 96%;
+	display: inline-block;
+	min-height: 500px;
+	padding: 2%;
+}
+.navActive .pageContant{
+	width:73%;
+}
+.menuopen .navActive .pageContant{
+	width:67%;
+}
+.pageMenuBar{
+	border-right:1px solid #cfdde6;
+	min-height: 557px
+}
+.pageMenuBar>ul>li{
+	padding: 10px 0px;
+	list-style-type: none;
+}
+.pageMenuBar ul ul{
+	margin-top: 15px;
+}
+.pageMenuBar ul ul li{
+	list-style-type: none;
+	margin:0px;
+	padding:3px 0px;
+}
+.pageMenuBar li a{
+	color: #858585;
+	text-decoration: none;
+
+}
+.pageMenuBar>ul>li>a:before{
+	content:'> '
+}
+.pageMenuBar ul ul{
+	display: none;
+}
+img path {
+    fill: #2391fe;
+}
+.HomePageSvgIcons li{
+	width: 15%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+.popup{
+	position: absolute;;
+	left:25%;
+	top: 20%;
+	width: 50%;
+	background: #fff;
+	z-index: 10;
+	display: none;
+}
+.popupContent{
+	width: 100%;
+	display: inline-block;
+	float: left;
+	min-height: 300px;
+}
+.popwarning .popupHeader{
+	background: #cd3b46;
+}
+.popinformation .popupHeader{
+	background: #2191ff;
+}
+.popsuccess .popupHeader{
+	background: #84b740;
+}
+.popupHeader{
+	width: 100%;
+	height: 40px;
+}
+.popupmain{
+	display: inline-block;;
+	width: 100%;
+	min-height: 206px
+}
+.popupFooter{
+	display: inline-block;;
+	width: 100%;
+	min-height: 50px;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.PageMessage{
+	width: 96%;
+	display: inline-block;
+	float: left;
+	color: #fff;
+	padding: 2%;
+	background: #2191ff;
+}
+.PageMessage p,.PageMessage h3{
+	color: #fff;
+}
+.PageMessage .close{
+	opacity: 1;
+}
+.PageMessage .close span{
+	font-size: 500%;
+	line-height: 50px;
+    color: #fff;
+    margin-left: 30px;
+}
+.MainmenuIcons a{
+	color: #000;
+}
+.MainmenuIcons a .svg path{
+	fill: #000 !important;
+}
+.MainmenuIcons a:hover{
+	color: #2093ff;
+}
+.MainmenuIcons a:hover .svg path{
+	fill: #2093ff !important;
+}

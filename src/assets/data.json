@@ -1,0 +1,172 @@
+[{
+    "id": 1,
+    "name": "CHAMPS",
+    "target": "_blank",
+    "image": "assets/SVG/champs.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http://es00vdweb24/schoolwellness/champs/Default.aspx"
+},
+{
+    "id": 2,
+    "name": "Communications Submissions",
+    "target": "_blank",
+    "image": "assets/SVG/newsletter.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "http://www.surveygizmo.com/s3/3806001/School-Wellness-Programs-Communications-Submission-Form"
+},
+{
+    "id": 3,
+    "name": "Cybershift",
+    "target": "_blank",
+    "image": "assets/SVG/cybershift.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://nycdoe.cybershift.net"
+},
+{
+    "id": 4,
+    "name": "Data Center",
+    "target": "_parent",
+    "image": "assets/SVG/data.svg",
+    "title": "analytics",
+    "apptype": "dataReports",
+    "linkPath": "LoadingPage.aspx?Page=DataCenterHome&v=0"
+},
+{
+    "id": 5,
+    "name": "Event Manager",
+    "target": "_blank",
+    "image": "assets/SVG/event.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http:///schoolwellness/eventmanager/Default.aspx"
+},
+{
+    "id": 6,
+    "name": "Feedback",
+    "target": "_blank",
+    "image": "assets/SVG/feedback.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "http://www.surveygizmo.com/s3/3485277/Wellness-Program-Pilot-Feedback-Form"
+},
+{
+    "id": 7,
+    "name": "NYC FITNESSGRAM",
+    "target": "_parent",
+    "image": "assets/SVG/fitnessgram.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http://es00vdweb24/schoolwellness/nycfitnessgram/Default.aspx"
+},
+{
+    "id": 8,
+    "name": "Office 365",
+    "target": "_blank",
+    "image": "assets/SVG/o365.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "http://portal.office.com"
+},
+{
+    "id": 8,
+    "name": "OSWP Wiki",
+    "target": "_blank",
+    "image": "assets/SVG/wiki.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://wiki.nycenet.edu/display/OSWP/Office+of+School+Wellness+Programs"
+},
+{
+    "id": 10,
+    "name": "PE PLC Meetings",
+    "target": "_blank",
+    "image": "assets/SVG/professionaldevelopment.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://sites.google.com/view/school-wellness-pl-catalog/physical-education/professional-learning-communitites"
+},
+{
+    "id": 11,
+    "name": "Professional Learning Catalog",
+    "target": "_blank",
+    "image": "assets/SVG/catalog.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://sites.google.com/view/school-wellness-pl-catalog/home"
+},
+{
+    "id": 12,
+    "name": "Program Manager",
+    "target": "_blank",
+    "image": "assets/SVG/program.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http://es00vdweb24/schoolwellness/programmanager"
+},
+{
+    "id": 13,
+    "name": "Reporting",
+    "target": "_blank",
+    "image": "assets/SVG/report.svg",
+    "title": "analytics",
+    "apptype": "dataReports",
+    "linkPath": "LoadingPage.aspx?Page=DashboardHome&v=0"
+},
+{
+    "id": 14,
+    "name": "School Wellness Weekly",
+    "target": "_blank",
+    "image": "assets/SVG/weekly.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://visitor.r20.constantcontact.com/manage/optin?v=001R5ZVVsTX-LBeMWnhsahZ5xb54ZOCD0aQB8e9zgHKTxZv1nrUfbj5Fwgfayk3OeAo2UFKbFjC5paw5Dr7tIxv6IN5_nEvTrveEMGsRF-hS4A%3D"
+},
+{
+    "id": 15,
+    "name": "Solution Center",
+    "target": "_blank",
+    "image": "assets/SVG/solution.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://wellnesstechsupport.freshdesk.com/support/solutions"
+},
+{
+    "id": 16,
+    "name": "Submit a Ticket",
+    "target": "_blank",
+    "image": "assets/SVG/tech.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "http://www.surveygizmo.com/s3/2279849/OSWP-Systems-Support-Request"
+},
+{
+    "id": 17,
+    "name": "Wellness Council Portal",
+    "target": "_blank",
+    "image": "assets/SVG/council.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http://es00vdweb24/schoolwellness/wellnesscouncilmanager/Default.aspx"
+},
+{
+    "id": 18,
+    "name": "Wellness Tracker",
+    "target": "_blank",
+    "image": "assets/SVG/tracker.svg",
+    "title": "analytics",
+    "apptype": "internal",
+    "linkPath": "http://es00vdweb24/schoolwellness/wellnesstracker/Default.aspx"
+},
+{
+    "id": 19,
+    "name": "WeTeach NYC",
+    "target": "_blank",
+    "image": "assets/SVG/teach.svg",
+    "title": "analytics",
+    "apptype": "usefulLinks",
+    "linkPath": "https://www.weteachnyc.org/resources/?q=&subjects%5B%5D=3"
+}
+]

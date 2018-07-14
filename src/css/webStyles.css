@@ -1,0 +1,1665 @@
+
+
+.navBar .dinlineblock.pt-10.pl-20 {
+    font-weight: bold;
+}
+.breadcrumbs {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0;
+    display: inline-block;
+    padding: 18px 10px 10px 20px;
+}
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+.breadcrumbs li.current a {
+    font-weight: bold !important;
+}
+.bcPageTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 16px !important;
+}
+.rcbSlide {
+    z-index: 9999999999 !important;
+}
+.MainSite {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.menuopen .mainpanel section {
+    background-color: #fff !important;
+}
+.logo {
+    background-image: url('../assets/Images/wellness-programs-logo.png');
+    background-repeat: no-repeat;
+    width: 276px;
+    float: left;
+    height: 42px;
+}
+#lblGoto {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+img {
+    max-width: 100%;
+}
+.menuopen #LeftMenu {
+    float: left;
+    display: inline-block;
+    min-height: 400px;
+    background: #2191ff;
+    padding: 1%;
+    position: absolute;
+    z-index: 1;
+}
+.mainpanel {
+    float: right;
+    flex: 1;
+    background: #fff;
+}
+.menuopen .mainpanel {
+    display: inline-block;
+}
+.gotomenu-ctr {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.gotomenu {
+    display: inline-block;
+    float: right;
+    padding: 10px 34px 10px 33px;
+    width: auto;
+    background-color: #2191ff !important;
+}
+/*.gotomenu {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+*/
+.gotomenu .RadComboBox.RadComboBox_Bootstrap {
+    width: 180px !important;
+    width: auto;
+}
+.gotomenu .rcbInput {
+    color: #fff !important;
+}
+.gotomenu .rcbInput.radPreventDecorate {
+    font-size: 14px !important;
+}
+.gotomenu .RadComboBox .rcbActionButton {
+    width: 1.428571em !important;
+    height: 1.428571em;
+}
+.gotomenu .RadComboBox_Bootstrap .rcbReadOnly {
+    background-color: #59abfc !important;
+}
+.btnIcon {
+    position: relative;
+    margin-right: 2%;
+    border-radius: 2px;
+    height: 36px;
+    width: 36px;
+    float: left;
+    cursor: pointer;
+}
+#dots:before {
+    position: absolute;
+    content: "";
+    border-top: 6px solid #2191ff;
+    border-bottom: 17px double #2191ff;
+    height: 5px;
+    width: 30px;
+    top: 4px;
+    right: 3px;
+}
+#dots:after {
+    position: absolute;
+    content: "";
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    height: 28px;
+    width: 6px;
+    top: 4px;
+    left: 9px;
+}
+header.pullleft.fullwidth {
+    border-top: 4px solid #2191ff;
+    border-bottom: 1px solid #f2f2f2;/* background-color: #fff;
+    position: fixed !important;
+	display: block !important;
+	z-index: 9999 !important; */
+}
+.headerSeperate {
+    border-top: 0px solid #cfdde6;
+    border-left: 0px solid #cfdde6;
+    border-bottom: 0px solid #cfdde6;
+    border-right: 0px solid #cfdde6;
+    background-color: #f1f2f4;
+    float: left;
+    width: 99.96%;
+}
+.headerSeperate.homePage {
+    border-bottom: 0px solid #cfdde6;
+}
+#LeftMenu {
+    float: left;
+    width: 0px;
+}
+#LeftMenu .MainmenuIcons li img {
+    height: 55px !important;
+    padding-bottom: 8px;
+}
+#NotificationDiv {
+    background-color: #fff !important;
+}
+.menuIcons ul {
+    margin: 0px;
+    padding: 0px;
+}
+.menuIcons ul li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6px;
+    font-size: 25px;
+    position: relative;
+}
+.menuIcons span.rsbSCFakeInput {
+    font-size: 12px !important;
+}
+.RadSearchBox_Default .rsbInner {
+    border: 1px solid red !important;
+}
+.menuIcons ul li a {
+    padding: 18.6px;
+    display: inline-block;
+}
+.menuIcons ul li.search {
+    padding: 19px 12px 16px 12px;
+    background: #f3f3f3;
+    padding-left: 18px;
+    font-size: 15px !important;
+}
+.menuIcons ul li.search input#txtSearch.ui-autocomplete-input {
+    height: 21px !important;
+}
+.RadSearchBox .rsbInput {
+    margin: 0px 0px 0px 8px !important;
+}
+.menuIcons ul li.searchclose {
+    margin-left: 0px;
+}
+.menuIcons ul li.searchclose, .menuIcons ul li.search {
+    display: none;
+}
+.menuIcons ul li.active {
+    background: #f3f3f3;
+}
+.menuIcons ul li .fa {
+    color: #2191ff;
+}
+.notification, .accountDetails {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 63px;
+    background: #f3f3f3 !important;
+    width: 300px;
+    border: 1px solid #f2f2f2;
+    display: none;
+    z-index: 9999 !important;
+}
+.notification ol, .notification ol li, .accountDetails ol, .accountDetails ol li {
+    margin: 0px;
+    padding: 0px;
+}
+.notification ol li, .accountDetails ol li {
+    width: 90%;
+    list-style-type: none;
+    padding: 10px 5%;
+}
+.notification h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.menuIcons ul li ol li.notify {
+    font-size: 12px;
+    background: #f1f2f4;
+    margin-bottom: 2px;
+}
+.menuIcons ul li ol li .fa {
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.menuIcons ul li ol li .fa.warning {
+    color: #cc3a45;
+}
+.menuIcons ul li ol li .fa.check {
+    color: #83b63f
+}
+.accountDetails li img {
+    max-width: 50px;
+    float: left;
+    margin-right: 20px
+}
+.menuIcons ul li .accountDetails li {
+    font-size: 20px;
+    text-align: center;
+    ;
+}
+.menuIcons ul li .accountDetails li a {
+    padding: 0px;
+    text-decoration: none;
+    color: #2191ff;
+    font-weight: normal;
+    font-size: 15px;
+}
+section {
+    display: flex;
+    width: 100%;
+    min-height: 550px
+}
+.control-label {
+    color: #999999;
+}
+.RadSearchBox .rsbInner {
+    border: 1px solid #f2f2f2 !important;
+}
+.RadSearchBox_Office2007 .rsbSCInner {
+    border: 1px solid #f2f2f2 !important;
+}
+.rsbPopup {
+    border: 1px solid #f2f2f2 !important;
+}
+.menuIcons ul li.search {
+    position: relative !important;
+}
+.RadWindow_MetroTouch .rwTitleRow .rwTitlebar, .RadWindow_MetroTouch .rwTitleRow .rwTopLeft, .RadWindow_MetroTouch .rwTitleRow .rwTopRight, .RadWindow_MetroTouch .rwTitleBar {
+    background-color: #2191ff !important;
+}
+.RadWindow .rwTitleRow em {
+    font-family: Arial !important;
+    font-style: normal !important;
+}
+.RadWindow_MetroTouch .rwTable a.rwIcon {
+    display: none;
+}
+.RadWindow_MetroTouch .rwShadow .rwTitlebarControls em {
+    padding: 7px 0 0 10px !important;
+}
+.RadWindow .rwTitleWrapper {
+    padding: 4px 5px !important;
+    line-height: 3.42857em !important;
+    height: 3.42857em !important;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+.RadTreeView_Office2007 {
+    font-size: 14px !important;
+    font-family: Arial !important;
+}
+.RadTileList div {
+    cursor: pointer !important;
+}
+.RadTile_Bootstrap {
+    color: #444444 !important;
+}
+.HomePageSvgIcons .RadTileList {
+    margin-top: 50px !important;
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.HomePageSvgIcons .RadTileList .rtlistTitle {
+    margin: 0;
+    padding: 15px 0 15px .14286em;
+    font-size: 1.667em;
+    font-weight: 600;
+}
+.RadInput .riTextBox {
+    height: 34px !important;
+}
+.RadGrid .rgRow td span, .RadGrid .rgAltRow td span {
+    cursor: pointer !important;
+    text-decoration: underline;
+    font-weight: normal !important;
+    color: #2191ff !important;
+}
+.RadGrid .rgExpXLSIcon:before {
+    font-size: 26px !important;
+    color: #2191ff !important;
+}
+.RadGrid_noToolTip .rgRow td span, .RadGrid_noToolTip .rgAltRow td span {
+    text-decoration: none;
+    font-weight: bold !important;
+    color: #444 !important;
+}
+.rgHeaderDiv .rgMasterTable .rgHeader input {
+    width: 26px !important;
+}
+/* Data Center - AdvancedSearch.aspx */
+
+.RadGrid .rgCommandCell {
+    padding: 1.5em .26em !important;
+}
+.RadMenu_Default .rmRootGroup {
+    background: none !important;
+    background-color: none !important;
+    border: 0px solid #fff !important;
+}
+.RadMenu_Default {
+    font-size: 14px !important;
+    font-family: arial !important;
+}
+.RadGrid_Bootstrap .rgFilterBox {
+    padding: 8px 12px !important;
+    border-radius: 0px !important;
+}
+/* Added by Krish */
+
+#ctl00_MainContent_txSSN_wrapper {
+    width: 100px !important;
+}
+/* END */
+
+/* Event Manager Accordion Feature */
+
+
+.toggle_item {
+    color: #666;
+    padding: 20px;
+    /*border: 1px solid #d9d9d9;*/
+    margin-bottom: 20px;
+}
+.toggle_close {
+    background-color: #f1f2f4;
+}
+.toggle_title {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle_title:before {
+    content: "\002B";
+    position: absolute;
+    right: 0;
+    font-size: 2.5em;
+    color: #2191ff !important;
+}
+.toggle_content {
+    display: none;
+    font-weight: 100;
+    padding-top: 20px;
+}
+.toggle_content * {
+/*padding: 0px;*/
+}
+.toggle_content p {
+    padding-bottom: 10px;
+}
+.toggle_content p:last-child {
+    padding-bottom: 0px;
+}
+.toggle_open .toggle_title:before {
+    content: "\002D";
+}
+/* End */
+
+
+
+/*------------------ Find Events Page - /EventManager/Views/EventsCatalog.aspx ------------------*/
+
+#ctl00_SchoolsDialog_C {
+    min-height: 590px !important;
+}
+#RadWindowWrapper_ctl00_SchoolsDialog {
+    width: 80% !important;
+    height: 292px;
+    position: absolute;
+    transform: none;
+    backface-visibility: visible;
+    visibility: visible;
+    z-index: 3002;
+    left: 10% !important;
+    top: 70px !important;
+}
+.menuIcons ul li.search .RadSearchBox_Bootstrap .rsbInput {
+    padding: 1.5px 12px;
+}
+.findEventsPage .RadPicker, .findEventsPage .RadComboBox {
+    width: 90% !important;
+}
+.findEventsPage .dateRange .dateRangePicker, .findEventsPage .dateRange .dateRangePicker2 {
+    display: inline-block;
+    float: left;
+    width: 300px !important;
+}
+.findEventsPage .feDropDown {
+    display: inline-block;
+    float: left;
+    width: 633px !important;
+}
+.findEventsPage .eventKeyword .RadInput {
+    width: 570px;
+}
+.findEventsPage .eventKeyword .riTextBox, .findEventsPage .dateRange .riTextBox {
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+}
+.findEventsPage .contentAreaPicker {
+    display: inline-block;
+    float: left;
+    width: 633px !important;
+}
+.totalEventsFound .RadGrid .rgRow a, .totalEventsFound .RadGrid .rgAltRow a {
+    font-size: 18px !important;
+}
+.findEventsPage .form-group .col-lg-2 {
+    /* this is for the form labels -TS */
+    width: 150px !important;
+}
+.findEventsSearch .RadButton_Bootstrap.rbButton, .totalEventsFound .RadButton_Bootstrap.rbButton, .eventProfileSaveBtn .RadButton_Bootstrap.rbButton, .addFileBtn .RadButton_Bootstrap.rbButton, .eventParticipantsScreen .RadButton_Bootstrap.rbButton {
+    border: 0px solid #fff !important;
+    background-color: #80b34e !important;
+    color: #fff !important;
+}
+.findEventsSearch .RadButton.rbRounded, .totalEventsFound .RadButton.rbRounded {
+    border-radius: 1px;
+}
+/* ---------------- Event Profile - /EventManager/Views/EventProfile.aspx ------ */
+
+.RadSearchBox_Bootstrap .rsbSCInner, .RadComboBox_Bootstrap .rcbInner, .RadInput_Bootstrap .riTextBox, .RadInputMgr_Bootstrap {
+    border-radius: 0px !important;
+}
+.RadButton_Bootstrap.rbButton {
+    border-radius: 0px !important;
+}
+#event_details .toggle_title:before {
+    display: none !important;
+}
+#event_details .toggle_title {
+    width: 120px;
+}
+.eventLocationInput {
+    clear: both;
+    display: block;
+}
+.eventProfilePage .col-lg-2.text-right.pt-10.pr-5.control-label, .eventProfilePage .col-lg-2.text-right.pt-5.pr-5.control-label {
+    width: 15%;
+}
+.changedCheckbox .checkbox {
+    padding-left: 13px !important;
+}
+.checkboxt .checkboxpe {
+    margin-left: 170px;
+}
+.RadButton_Bootstrap.rbButton {
+    border: 0px solid #fff;
+}
+.RadScheduler .rsAptContent {
+    height: 70px !important;
+}
+.RadScheduler .rsApt {
+    height: 80px !important;
+}
+.eventProfilePage hr {
+    border: none;
+    color: #f1f2f4;
+    background-color: #f1f2f4;
+    height: 1px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    clear: both;
+}
+.eventProfilePage {
+    width: 88%;
+    display: inline-block;
+}
+/*.eventProfilePage .form-control {
+border: 0px solid #fff;
+padding: 0px;
+}*/
+
+.eventProfilePage .form-control {
+    border: 1px solid #d8d8d8;
+    border-radius: 0px;
+    padding: 0px;
+}
+.eventProfilePage .RadInput .riTextBox {
+    height: 35px !important;
+}
+.eventProfilePage .RadComboBox {
+    width: 100%;
+}
+.eventDatePicked, .eventStartDate, .eventEndDate {
+    display: inline-block;
+    float: left;
+    width: 280px;
+}
+.eventNameText {
+    margin-left: 172px;
+}
+.eventNameText .RadInput {
+    width: 100%;
+}
+.eventDateInput {
+    padding-left: 88px;
+}
+.locationData {
+    clear: both !important;
+    display: block !important;
+    margin-left: 84px;
+}
+.addNewLocationDetails {
+    margin-left: 0px;
+}
+.checkbox.newLocationInput {
+    padding-left: 1px !important;
+}
+.addNewLocationDetails .venueName, .addNewLocationDetails .addressInput, .addNewLocationDetails .zipInput {
+    margin-left: 2px;
+}
+.addNewLocationDetails label {
+    width: 158px !important;
+}
+.addNewLocationDetails .addressInput {
+    width: 460px;
+    display: inline-block;
+    float: left;
+}
+.addNewLocationDetails .zipInput {
+    width: 345px;
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+}
+.addNewLocationDetails .venueName .RadInput {
+    width: 100%;
+}
+.addNewLocationDetails .addressInputField {
+    display: inline-block;
+    float: left;
+}
+.locationDataCtr {
+    padding-bottom: 26px;
+}
+.addressInput .RadInput {
+    width: 280px;
+}
+.eventProfilePage .changedCheckbox {
+    margin-left: 154px;
+}
+.otherStaffInputCtr {
+    margin-left: 171px;
+}
+.addStaffbtn, .removeStaffbtn {
+    margin-left: 23px;
+}
+.otherStaffInput02 .RadListBox {
+    min-width: 31.778em;
+}
+.descriptionInput .RadInput {
+    width: 100%;
+    height: 200px !important;
+}
+.descriptionInput .RadInput .riTextBox {
+    height: 200px !important;
+}
+.tixWaitlistInput {
+    display: block;
+    padding: 20px 0px 40px 0;
+}
+.tixWaitlistInput .checkbox {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.supportingLinkInput .RadInput, .evaluationInput .RadInput {
+    width: 100%;
+}
+.supportingLinkInput .checkBoxPublic {
+    margin-left: 20px;
+}
+.eventDateInput .col-lg-8 {
+    display: block !important;
+}
+.col-lg-10.locationDataCtr, .col-lg-8.locationData {
+    display: inline-block !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    float: none !important;
+}
+/* --------------------- /EventManager/Views/EventParticipants.aspx -------------------------- */
+
+.eventParticipantsForm {
+    width: 1150px;
+    display: inline-block;
+}
+.eventParticipantsForm .RadButton_Bootstrap.rbButton {
+    padding: 7px 12px;
+}
+.participantActionInput label {
+    width: 230px;
+}
+.addParticipantsInput label {
+    width: 230px;
+}
+.participantActionInput .RadComboBox, .addParticipantsInput .RadComboBox {
+    width: 400px !important;
+}
+.participantTypeInput .RadInput .riTextBox {
+    width: 750px;
+    height: 150px !important;
+    margin-top: 15px;
+}
+.participantTypeInput .apiBtns {
+    text-align: center !important;
+    width: 750px;
+}
+.participantTypeInput .apiBtns .rbButton, .viewChangeParticipantStatusInput .vcpsBtns .rbButton, .viewChangeParticipantFilterInput .vcpfBtns .rbButton {
+    background: none repeat scroll 0 0 #80b34e !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+.eventParticipantsScreen {
+    display: inline-block;
+    width: 1150px;
+}
+.participantsInput {
+    width: 600px;
+}
+.changeParticipantsStatusInput {
+    width: 740px;
+}
+.participantsInput label {
+    width: 90px;
+}
+.changeParticipantsStatusInput label {
+    width: 200px;
+}
+.participantsInput .RadComboBox {
+    width: 100%;
+}
+.changeParticipantsStatusCtr {
+    display: inline-block;
+    float: left;
+    width: 504px;
+}
+.changeParticipantsStatusInput .RadComboBox {
+    width: 200px;
+}
+.changeParticipantsStatusInput .updateStatusBtn {
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.changeParticipantsStatusInput .chooseAStatus {
+    display: inline-block;
+    float: left;
+}
+.filterByInputCtr {
+    width: 500px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.filterByInputCtr .filterByInput {
+    display: inline-block;
+    float: left;
+    width: 480px;
+}
+.filterByInputSearch {
+    width: auto;
+    display: inline-block;
+    float: right;
+    margin-left: -12px;
+}
+.filterByInputCtr .filterByInput .filterByInputTXT {
+    width: 218px;
+    display: inline-block;
+    float: right;
+    margin-top: 0px !important;
+}
+.filterByInputCtr .filterByInput .filterByInputTXT .RadInput_Bootstrap .riTextBox {
+    padding: 16px 12px;
+    border-radius: 4px;
+}
+.vcpsBtns {
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+.vcpfBtns {
+    display: inline-block;
+    width: auto;
+    float: right;
+    margin-left: 11px;
+}
+.cpsChangeParticipantStatus {
+    width: 230px;
+}
+.cpsChooseAStatus {
+    width: 360px !important;
+}
+.cpsChooseAStatus .RadComboBox {
+    width: 280px;
+}
+.viewChangeParticipantStatusInput {
+    display: inline-block;
+    float: left;
+    width: 606px;
+}
+.viewChangeParticipantFilterInput {
+    display: inline-block;
+    width: 542px;
+    float: right;
+}
+.viewChangeParticipantFilterInput .vcpfi {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.vcpfParticipantFilter {
+    width: 245px;
+}
+.vcpfDDFilter .rcbInner input {
+    height: 28px;
+    border-radius: 4px;
+    border-color: #ccc;
+    border-width: 0px;
+    text-indent: 8px;
+}
+.vcpfTxtFilter {
+    width: auto;
+    float: right;
+}
+.vcpfTxtFilter .RadInput_Bootstrap .riTextBox {
+    height: 34px !important;
+    border: 0px solid #fff;
+}
+.rcbActionButton {
+    height: 34px;
+    border: 0px solid red;
+    left: -3px;
+    position: relative;
+    background-color: #f1f2f4 !important;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#btnDeSelect, #btnSortt, #MainContent_btnStaffTags, #MainContent_btnStaffTags, #MainContent_btnReset, #MainContent_btnContacts, #MainContent_btnSaveSearch, #MainContent_btnDOEStaff, #MainContent_btnEventParticipants, #MainContent_btnClear, #MainContent_btnLoad, #MainContent_btnEventParticipants, #MainContent_btnClear, #MainContent_btnDOEStaff {
+    background: #80b34e !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    display: inline-block !important;
+    font-weight: 400 !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    font-size: 1rem !important;
+    height: 34px;
+    padding: 0 20px 0 20px;
+}
+.RadWindow .rwIcon:before, .RadWindow .rwIcon {
+    display: none !important;
+}
+/* ---------------- Event Profile - /EventManager/Views/EventFiles.aspx ------ */
+
+.eventFilesPage {
+    width: 1150px;
+    display: inline-block;
+}
+.eventFilesPage .filesUploadedList .RadGrid {
+    border: 1px solid #e6e6e6 !important;
+}
+.eventFilesPage .RadInput .riTextBox {
+    height: 35px !important;
+    width: 300px !important;
+}
+.eventFilesPage .RadUpload .ruFakeInput {
+    width: 18.285714em;
+}
+.searchBtnInput .col-lg-2 .rbButton {
+    border: 0px solid #fff !important;
+    background-color: #80b34e !important;
+    color: #fff !important;
+}
+.fileUploadInput .uploadSelector, .eventFilesPage .searchBtnInput {
+}
+.fileUploadInput .RadUpload .ruFakeInput {
+}
+.filesUploadedList {
+}
+/* ---------------------Telerik RadTilelist style - Jose -------------------------- */
+.rtileContentImage {
+    height: 64px;
+    width: 64px;
+    padding-top: 10px;
+}
+.rtileContentImage path, .rtileContentImage circle, .rtileContentImage polygon, .rtileContentImage rect {
+    fill: #2e8fff;
+    color: #2e8fff;
+}
+.rtileContent:hover .rtileTopContent .rtileContentImage path, .rtileContent:hover .rtileTopContent .rtileContentImage circle, .rtileContent:hover .rtileTopContent .rtileContentImage polygon, .rtileContent:hover .rtileTopContent .rtileContentImage rect, .rtileContent:hover .rtileBottomContent {
+    color: #ffffff;
+    fill: #ffffff;
+}
+/* Tile Background Color */
+.RadTileList div.rtileContent {
+    background-color: #f2f2f2;
+}
+/* Tile Background Color Hover */
+.RadTileList div.rtileContent:hover {
+    border-color: #2e8fff;
+    background-color: #2e8fff;
+}
+/*Tile Text Color*/
+.RadTile_Office2007 {
+    color: #2e8fff !important;
+}
+/* Tile Border Color */
+.RadTile_Office2007.rtileSelected {
+    border-color: #2e8fff !important;
+}
+/* Tile Border Corner Color */
+.RadTile_Office2007.rtileSelected .rtileSelectedIcon {
+    background-color: #2e8fff !important;
+    Color: #ffffff !important;
+}
+/* RadTile Override */
+.RadTile_Default {
+    color: #444444 !important;
+    background-color: #f2f2f2 !important;
+}
+.RadTile_Default:hover {
+    color: #ffffff !important;
+    background-color: #2e8fff !important;
+}
+.RadTile_Default.rtileSelected {
+    border-color: #2e8fff !important;
+}
+.RadTile_Default.rtileSelected .rtileSelectedIcon {
+    background-color: #2e8fff !important;
+    color: #ffffff !important;
+}
+/*--------------------- Left Menu SVG Styling --------------------*/   
+.MainmenuIcons a svg {
+    width: 54px;
+    height: 54px;
+    display: block !important;
+    margin: auto !important;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#LeftMenu .MainmenuIcons svg path, #LeftMenu .MainmenuIcons svg circle, #LeftMenu .MainmenuIcons svg polygon, #LeftMenu .MainmenuIcons svg rect {
+    color: #ffffff;
+    fill: #ffffff;
+}
+#LeftMenu .MainmenuIcons:hover svg path, #LeftMenu .MainmenuIcons:hover svg circle, #LeftMenu .MainmenuIcons:hover svg polygon, #LeftMenu .MainmenuIcons:hover svg rect {
+    color: #ffffff;
+    fill: #ffffff;
+}
+/* ---------------------End Telerik RadTilelist style  -------------------------- */
+ 
+
+.feedback {
+    height: 40px;
+    border: solid 3px transparent;
+    background: #fe9833;
+    width: 150px;
+    line-height: 32px;
+    -webkit-transform: rotate(-90deg);
+    font-weight: 600;
+    color: white;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    text-align: center;
+    font-size: 17px;
+    position: fixed;
+    right: -60px;
+    top: 45%;
+    font-family: Arial, sans-serif;
+    z-index: 999;
+    display: none !important;
+}
+a.text-white {
+    color: #fff;
+    text-decoration: none !important;
+}
+a.text-white:focus, a.text-white:hover {
+    color: #000000;
+    text-decoration: none !important;
+}
+/*-------------------------------------------------------------------*/
+
+
+
+/* ---------------------Telerik RadTilelist style - Krishna -------------------------- */
+
+.TelerikModalOverlay {
+    opacity: 0.8 !important;
+    background-color: #444 !important;
+}
+.rwIcon {
+    /*background-image: url(../assets/Images/oswp-favicon.png) !important;*/
+}
+.rwTitlebar {
+    background-color: #2191ff!important;
+}
+.rwTopRight {
+    background-color: #2191ff!important;
+}
+.rwTopLeft {
+    background-color: #2191ff!important;
+}
+.rsbInput {
+    width: 380px !important;
+    height: 21px;
+}
+.rsbSearchContext {
+    height: 25px!important;
+}
+.rsbSCInner {
+    height: 26px!important;
+}
+.RadTileList .rtlistWrapper {
+    width: auto !important;
+}
+.RadTileList div.rtlistScrollWrapper {
+    width: 98% !important;
+}
+.rtlistGroup {
+    margin: auto;
+}
+.rtlistHeader {
+    clear: both;
+}
+.RadTileList {
+    background: none;
+    padding-bottom: 500px !important;
+    overflow-x: visible !important;
+}
+.RadTileList .rtlistGroup {
+    float: none !important;
+    margin: auto !important;
+    display: block !important;
+    min-height: 200px !important;
+    padding-left: 7.5%;
+}
+.RadTileList .rtlistGroupSeparator {
+    height: fit-content !important;
+    display: none;
+}
+.HomePageSvgIcons {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+.RadTabStripTop_MetroTouch .rtsLevel1, .RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected, .RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected:hover {
+    border-bottom: 3px solid #2191ff !important;
+}
+.RadTile.rtileWide, .RadTile.rtileSquare {
+    height: auto !important;
+}
+.RadTileList div:hover {
+    border-color: transparent;
+}
+/*.RadTileList div.rtileContent:hover {
+	border-color: aliceblue;
+	background-color: #F5F5F5;
+}
+*/
+.RadTile div.rtileTopContent {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.RadTile div.rtileBottomContent {
+    position: relative !important;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial;
+    width: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.RadTabStripTop_MetroTouch span.rtsTxt {
+    font: 16px Arial, Helvetica, sans-serif !important;
+}
+.RadTabStrip_MetroTouch .rtsLevel1 .rtsLink {
+    border-left: 1px solid #fff !important;
+    border: 1px solid #f1f2f4 !important;
+    border-bottom: none !important;
+}
+.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected {
+    border-bottom: 1px solid #2191ff !important;
+}
+li.rtsFirst a.rtsLink {
+    border-left: 0px solid #fff !important;
+}
+.RadTabStripTop_MetroTouch .rtsLevel1 {
+    border-bottom: 2px solid #2191ff !important;
+}
+.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected {
+    background-color: #2191ff !important;
+    border-bottom: 0px solid #fff !important;
+}
+.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected:hover {
+    background-color: #ccc !important;
+    border-bottom: 0px solid #fff !important;
+}
+.RadGrid, .RadGrid_Office2007 {
+    border: 0px solid #ffffff !important;
+}
+.RadGrid td.rgPagerCell, .RadGrid_Office2007 td.rgPagerCell {
+    background-color: #f1f2f4 !important;
+}
+.RadTreeView {
+    font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.RadGrid_Office2007 .rgHeader, .RadGrid_Office2007 th.rgResizeCol, .RadGrid_Office2007 .rgHeaderWrapper {
+    background: none !important;
+}
+.RadGrid .rgHeader, .RadGrid_Office2007 .rgHeader {
+    border: solid #fff !important;
+    border-width: 0 0 0 1px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+.RadGrid .rgFilterRow > td {
+    border: solid #fff !important;
+    border-width: 0 0 1px 1px !important;
+}
+.RadGrid .rgHeader, .RadGrid .rgFilterRow, .RadGrid_Office2007 .rgFilterRow {
+    background: none !important;
+    background-color: #eaf5ff !important;
+}
+.RadGrid .rgRow > td, .RadGrid .rgAltRow > td {
+    border-width: 0 1px 0 0 !important;
+}
+.rgMasterTable {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.RadGrid .rgRow td, .RadGrid .rgAltRow td {
+    padding: 10px 5px 10px 8px !important;
+}
+.RadGrid_Default td.rgPagerCell {
+    border: none !important;
+    padding: 20px 0 20px 0 !important;
+}
+.rgHeader {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.RadGrid .rgRow a, .RadGrid .rgAltRow a {
+    color: #2191ff !important;
+}
+.RadAjax .raDiv {
+    background-color: #2191ff !important;
+    opacity: .3 !important;
+}
+.RadGrid_Metro .rgNumPart a.rgCurrentPage, .RadGrid_Metro .rgNumPart a.rgCurrentPage:hover {
+    border-color: #2191ff !important;
+}
+.RadGrid_Metro .rgCommandCell {
+    border-bottom: none !important;
+}
+.RadInput_Default .riTextBox, .RadInputMgr_Default, .RadComboBox_Default .rcbInput {
+    font-family: Arial, Helvetica, sans-serif !important;
+    border-radius: 4px !important;
+    border: 1px solid #d8d8d8 !important;
+}
+.RadInput_Default .riTextBox, .RadInputMgr_Default {
+    font-size: 14px !important;
+    border: 1px solid #d8d8d8 !important;
+}
+.RadComboBox_Default .rcbInput {
+    border: 0px solid #d8d8d8 !important;
+}
+.RadGrid .rgAltRow {
+    background-color: #f1f2f4 !important;
+}
+/*---------------------------------------------------------------------------------------*/
+.notification-text-box {
+    height: 125px !important;
+}
+.notification-details {
+    max-width: 580px;
+    padding: 10px;
+    margin: auto;
+    background-color: #fff;
+}
+.notification-details .checkbox {
+    padding-left: 0;
+    margin-left: -4px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.notification-date-visible label.lblnormal {
+    font-weight: normal !important;
+}
+.vbtns {
+    width: 85px;
+}
+.vbtns .vbtn {
+    font-size: 10px;
+}
+.vbtns .vbtn input.btn {
+    width: 35px;
+}
+.notification-dates-times {
+    font-size: 10px;
+    color: #444444;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+/*---------------------------------------------------------------------------------------*/
+footer {
+    border-top: 1px solid #fff;
+    display: inline-block;
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999 !important;
+}
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px
+}
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+    ;
+}
+.footerLogos img {
+    max-width: 70%;
+}
+.owspLogo img {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.tmaLogo img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.closeIcon {
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    background: #2191ff;
+}
+.closeIcon .fa {
+    color: #fff;
+    font-size: 40px;
+}
+.MainmenuIcons, .MainmenuIcons li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.MainmenuIcons {
+    margin-top: 20px;
+}
+.MainmenuIcons li {
+    width: 29%;
+    float: left;
+    margin: 0px 2% 10px 2%;
+    font-size: 12px;
+}
+.MainmenuIcons li img {
+    height: 75px;
+    display: block;
+    width: 100%;
+}
+.leftImage img {
+    width: 100%;
+    max-width: 100%;
+}
+.MainmenuIcons a {
+    display: inline-block;
+    padding: 5px;
+    min-height: 110px;
+    width: 110px;
+    height: 110px;
+    width: 90%;
+    color: #000;
+    text-decoration: none;
+}
+#LeftMenu .MainmenuIcons a {
+    min-height: 115px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid transparent; /*Change border color to transparent so no trail is left during transition effect - Jose*/
+}
+#LeftMenu .MainmenuIcons a:hover {
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, .5);
+}
+.MainmenuIcons a:hover {
+    background: rgba(247, 252, 246, 1);
+}
+.navBar {
+    background: #2191ff;
+    color: #fff;
+    font-size: 17px;
+}
+.navBar a {
+    color: #fff;
+}
+.hamburger {
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+}
+.hamburger span {
+    width: 30px;
+    height: 5px;
+    background: #fff;
+    float: left;
+    clear: both;
+    border-radius: 2px;
+    margin: 3px 0;
+}
+.pageMenuBar, .navBar {
+    width: 230px;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+}
+.pageContant {
+    width: 96%;
+    display: inline-block;
+    min-height: 500px;
+    padding: 2%;
+    flex: 1;
+}
+.navActive .pageContant {
+    width: 100%;
+    flex: 1;
+}
+.pageMenuBar {
+    border-right: 1px solid #f1f2f4;
+    min-height: 800px;
+    background-color: #f1f2f4 !important;
+}
+.pageMenuBar>ul>li {
+    padding: 10px 0px;
+    list-style-type: none;
+}
+.pageMenuBar ul ul {
+    margin-top: 15px;
+}
+.pageMenuBar ul ul li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 3px 0px;
+}
+.pageMenuBar li a {
+    color: #858585;
+    text-decoration: none;
+}
+.pageMenuBar>ul>li>a:before {
+    content: '> '
+}
+.pageMenuBar ul ul {
+    display: none;
+}
+img path {
+    fill: #2391fe;
+}
+.HomePageSvgIcons li {
+    width: 110px;
+    height: 110px;
+    text-overflow: ellipsis;
+}
+.HomePageSvgIcons .MainmenuIcons span {
+    display: inline-block;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+.popup {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    background: #fff;
+    z-index: 10;
+    display: none;
+}
+.popupContent {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    min-height: 300px;
+}
+.popwarning .popupHeader {
+    background: #cd3b46;
+}
+.popinformation .popupHeader {
+    background: #2191ff;
+}
+.popsuccess .popupHeader {
+    background: #84b740;
+}
+.popupHeader {
+    width: 100%;
+    height: 40px;
+}
+.popupmain {
+    display: inline-block;
+    width: 100%;
+    min-height: 206px;
+}
+.popupFooter {
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
+}
+.close {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.PageMessage {
+    width: 96%;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    padding: 2%;
+    background: #2191ff;
+}
+.PageMessage p, .PageMessage h3 {
+    color: #fff;
+}
+.PageMessage .close {
+    opacity: 1;
+}
+.PageMessage .close span {
+    font-size: 500%;
+    line-height: 50px;
+    color: #fff;
+    margin-left: 30px;
+}
+.MainmenuIcons a {
+    color: #000;
+}
+.MainmenuIcons a .svg path {
+    fill: #000 !important;
+}
+.MainmenuIcons a:hover {
+    color: #2093ff;
+}
+.MainmenuIcons a:hover .svg path {
+    fill: #2093ff !important;
+}
+.bottomlogo img {
+    max-width: 50%;
+}
+.RadSearchBox .rsbInner input {
+    width: 85%;
+}
+.profile-overlay-window {
+    width: 50% !important;
+    height: auto !important;
+}
+.rwWindowContent {
+    height: auto !important;
+}
+.rwWindowContent #SchoolsDialog_C, .rwWindowContent #ctl00_SchoolsDialog_C {
+    width: 100% !important;
+    height: auto !important;
+}
+.RadGrid_Metro .rgEditForm {
+    padding: 20px !important;
+}
+.sp-add-remove {
+    position: relative;
+    top: 48px;
+}
+.sp-save-btn {
+    text-align: left;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width : 1024px) {
+.leftImage {
+    display: none;
+}
+.HomePageSvgIcons {
+    width: 100% !important;
+}
+.MainmenuIcons {
+    margin-left: 54px;
+}
+}
+
+@media only screen and (min-width : 600px) and (max-width : 900px) {
+.navActive .pageContant {
+    width: 54%;
+}
+}
+
+@media only screen and (max-width : 800px) {
+.pageMenuBar {
+    min-height: auto;
+    width: 229px;
+}
+.navActive .pageContant {
+    width: 45%;
+}
+}
+
+@media only screen and (max-width : 1024px) {
+.menuopen #LeftMenu {
+    width: 98% !important;
+    position: absolute;
+    top: 65px;
+}
+.MainmenuIcons {
+    margin: 0px;
+}
+.menuopen .mainpanel {
+    width: 100% !important;
+}
+.menuopen section {
+    display: none
+}
+
+#AppTitleList {
+    box-sizing: content-box !important;
+}
+.RadTileList {
+    overflow-x: auto !important;
+}
+.pageMenuBar {
+    border-right: 1px solid #f1f2f4;
+    min-height: 557px;
+    background-color: #f1f2f4 !important;
+    display: none;
+}
+.breadcrumbs {
+    display: none;
+}
+/*.logo {
+    background-image: url(../assets/Images/wellness-programs-logo.png);
+    background-repeat: no-repeat;
+    width: 259px;
+    float: left;
+    height: 42px;
+    background-size: 92%;
+}*/
+	
+.logo {
+    background-image: url(../assets/Images/wellness-programs-logo.png);
+    background-repeat: no-repeat;
+    width: 130px;
+    float: left;
+    height: 42px;
+    background-size: 98%;
+}
+/*.pullleft.fullwidth .leftPanel.pullleft.col-lg-4.p-10 {
+	width: 60% !important;
+}*/
+
+.pullleft.fullwidth .leftPanel.pullleft.col-lg-4.p-10 {
+    width: 29% !important;
+}
+div.pullright.menuIcons.mr-15 {
+    width: auto !important;
+}
+.menuIcons ul li.search {
+    padding: 19px 12px 18px 12px;
+    background: #f3f3f3;
+    padding-left: 18px;
+    font-size: 15px !important;
+    width: 140px !important;
+}
+.RadSearchBox_Default .rsbInner {
+    border-radius: 3px;
+    border-color: #b3b3b3;
+    color: #333;
+    background-color: #fff;
+    width: 140px !important;
+}
+.RadSearchBox_Default {
+    width: 124px !important;
+}
+.menuIcons ul li a {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+}
+
+@media only screen and (max-width : 640px) {
+.menuIcons li.notificationIcon, .menuIcons li.searchIcon {
+    display: none !important;
+}
+.pageMenuBar {
+    border-right: 1px solid #f1f2f4;
+    min-height: 557px;
+    background-color: #f1f2f4 !important;
+    display: none;
+}
+.pullleft.fullwidth .leftPanel.pullleft.col-lg-4.p-10 {
+    width: 60% !important;
+}
+.notification, .accountDetails {
+    width: 275px !important;
+}
+}
+
+@media only screen and (max-width : 420px) {
+
+.HomePageSvgIcons .RadTileList {
+    margin-top: 0px !important;
+}
+
+.RadTileList div.rtileContent {
+    height: 70px;
+    width: 80px;
+    margin-right: 15px;
+    padding: 0px 10px 26px 10px;
+}
+	
+.rtileContentImage {
+    height: 30px;
+    width: 40px;
+    padding-top: 7px;
+}
+	
+	.RadTile div.rtileBottomContent {
+    position: relative !important;
+    font-weight: bold;
+    font-size: 9px;
+    font-family: Arial;
+    width: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 12px;
+}
+
+}
+
+@media only screen and (max-width : 160px) {
+.MainmenuIcons li {
+    width: 100%;
+    margin: 0px 2% 10px 2%;
+    font-size: 12px;
+    display: block !important;
+    clear: both !important;
+}
+#LeftMenu {
+    height: auto !important;
+    padding-bottom: 200px !important;
+}
+}
+
+
+.RadTileList div.rtileContent {
+    /*height: 70px;
+    width: 80px;*/
+    margin-right: 15px;
+    padding: 0px 10px 26px 10px;
+}
+
+.rtlistScrollWrapper h3{
+    float: left;
+    width: 100%;
+}
+
+.rtlistScrollWrapper .RadTile.rtileWide, .rtlistScrollWrapper .RadTile.rtileSquare {
+    float: left;
+    margin-bottom: 20px;
+}
