@@ -7,7 +7,6 @@ import {GetMenuDataService} from '../get-menu-data.service';
   providers: [GetMenuDataService]
 })
 export class SidemenuComponent implements OnInit {
-
   constructor(private _GetMenuDataService:GetMenuDataService) { }
   public menuList:any;
 
@@ -16,7 +15,7 @@ export class SidemenuComponent implements OnInit {
   }
 
   getMegaMenuData(){
-    this._GetMenuDataService.getMegaMenuService()
+    this._GetMenuDataService.getMegaMenuService('./assets/data.json')
                       .subscribe((respoce)=>this.menuList= respoce)
   }
   

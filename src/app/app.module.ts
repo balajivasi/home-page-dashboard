@@ -12,7 +12,8 @@ import { PopupInformationComponent } from './popup-information/popup-information
 
 import { HttpModule } from '@angular/http';
 import { GetMenuDataService } from './get-menu-data.service';
-import { DashboardListComponent } from './dashboard-list/dashboard-list.component'
+import { DashboardListComponent } from './dashboard-list/dashboard-list.component';
+import { WelcomePopupComponent } from './welcome-popup/welcome-popup.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DashboardListComponent } from './dashboard-list/dashboard-list.componen
     FeedbackComponent,
     PopupWarningComponent,
     PopupInformationComponent,
-    DashboardListComponent
+    DashboardListComponent,
+    WelcomePopupComponent
   ],
   imports: [
     BrowserModule,

@@ -9,9 +9,9 @@ export class GetMenuDataService {
 
   constructor(private _http:Http) { }
 
-  getMegaMenuService():Observable<any>{
+  getMegaMenuService(ID):Observable<any>{
 		
-		return this._http.get('./assets/data.json')
+		return this._http.get(ID)
 				  		 .pipe(map(response=>response.json()))
 				  		 	
   }

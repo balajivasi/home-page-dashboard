@@ -1393,6 +1393,16 @@ img path {
     width: 100%;
     min-height: 50px;
 }
+.popupWelcome .popupContent{
+    height: auto;
+    min-height: auto;
+}
+.popupWelcome .popupmain{
+    min-height: auto;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
 .close {
     float: right;
     font-size: 14px;

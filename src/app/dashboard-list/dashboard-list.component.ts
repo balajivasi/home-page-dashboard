@@ -14,14 +14,16 @@ export class DashboardListComponent implements OnInit {
   
   constructor(private _GetMenuDataService:GetMenuDataService) { }
   public menuList:any;
+  
 
   ngOnInit() {
     this.getMegaMenuData();
   }
 
   getMegaMenuData(){
-    this._GetMenuDataService.getMegaMenuService()
+    this._GetMenuDataService.getMegaMenuService('./assets/data.json')
                       .subscribe((respoce)=>this.menuList= respoce)
   }
+
 
 }

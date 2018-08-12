@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-right-panel',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./right-panel.component.css']
 })
 export class RightPanelComponent implements OnInit {
-
+  @Input() quickSearch:string;
   constructor() { }
 
   ngOnInit() {

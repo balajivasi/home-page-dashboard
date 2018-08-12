@@ -421,9 +421,6 @@ h3.cal {
 /*---------------------------------------------------------- */
 
 /* session Settings*/
-.overlay{
-    height: 10vh
-}
 input[type="text"].form-control,input[type="date"].form-control{
     width: 87%;
 }

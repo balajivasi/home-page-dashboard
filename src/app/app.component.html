@@ -11,10 +11,10 @@
      <header class="pullleft fullwidth">
         <!-- header Start -->
         <!-- Logo Start -->
-        <app-logo></app-logo>
+        <app-logo *ngIf="CommonData" leftNav={{CommonData[0].leftNav}} homeLink={{CommonData[0].homeLink}}></app-logo>
         <!-- Logo End -->
         <!-- Right Panel Start -->
-        <app-right-panel></app-right-panel>
+        <app-right-panel *ngIf="CommonData" quickSearch={{CommonData[0].QuickSearch}}></app-right-panel>
         <!-- Right Panel End -->
         <!-- header End -->
      </header>
@@ -28,11 +28,11 @@
            <div class="HomePageSvgIcons">
               <div id="AppTitleList" class="RadTileList RadTileList_Bootstrap">
                  <!-- 2017.2.621.40 -->
-                 <div class="rtlistScrollWrapper rtlistHidden">
+                 <div class="rtlistScrollWrapper rtlistHidden" *ngIf="CommonData">
                    <!-- internal app start -->
                     <app-dashboard-list 
                       [pageTitle]="'internal App'" 
-                      [intro]="'These are the internal apps. 000000000000'" 
+                      intro={{CommonData[0].internalApp}}
                       [show]="'internal'"
                       [index]="'1'"
                       >
@@ -40,7 +40,7 @@
                     <!-- Data & Reports Apps start -->
                     <app-dashboard-list 
                       [pageTitle]="'Data & Reports'" 
-                      [intro]="'These are the Data & Reports. 000000000000'" 
+                      intro={{CommonData[0].dataAndReports}}
                       [show]="'dataReports'"
                       [index]="'2'"
                       >
@@ -48,7 +48,7 @@
                     <!-- Useful Links Apps start -->
                     <app-dashboard-list 
                       [pageTitle]="'Useful Links'" 
-                      [intro]="'These are the Useful Links. 000000000000'" 
+                      intro={{CommonData[0].usefulLinks}} 
                       [show]="'usefulLinks'"
                       [index]="'3'"
                       >
@@ -70,3 +70,4 @@
 <div class="overlay"></div>
 <app-popup-warning></app-popup-warning>
 <app-popup-information></app-popup-information>
+<app-welcome-popup welcome={{CommonData[0].welcome}}></app-welcome-popup>

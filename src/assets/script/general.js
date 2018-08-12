@@ -1,6 +1,14 @@
 $(document).ready(function(){
-	introJs().setOption('showStepNumbers','false').start();
+	//introJs().setOption('showStepNumbers','false').start();
 	$('#LeftMenu').hide();
+
+	$('.popupWelcome,.overlay').show();
+	
+	$('.startIntro').on('click',function(){
+		$('.popupWelcome,.overlay').hide();
+		introJs().setOption('showStepNumbers','false').start();
+	})
+
 	$('#dots,.closeIcon').on('click',function(){
 		var width=$( window ).width();
 		
